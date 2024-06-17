@@ -19,7 +19,7 @@ public class C129 {
         // TODO 스시 포장 요구조건과 주어진 스시정보를 비교하여 포장여부를 판단한다.
         if(sushiRequired.equals(sushiGiven)) { // Map끼리 equals로 요소 비교가 가능하구나
             System.out.println("Yes");
-        }else{
+        }else{  
             System.out.println("No");
         }
     }
